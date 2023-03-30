@@ -41,7 +41,7 @@ public class Matrix {
 	 * Flag에 따라 벡터의 방향이 결정
 	 * Vector orientation determined by flag
 	 * 
-	 * True  Flag -> Row vector(col size = 1)
+	 * True  Flag -> Row Vector(col size = 1)
 	 * False Flag -> Col Vector(row size = 1)
 	 * 
 	 * @param data
@@ -81,7 +81,7 @@ public class Matrix {
 	 * Flag에 따라 벡터의 방향이 결정
 	 * Vector orientation determined by flag
 	 * 
-	 * True  Flag -> Row vector(col size = 1)
+	 * True  Flag -> Row Vector(col size = 1)
 	 * False Flag -> Col Vector(row size = 1)
 	 * 
 	 * @param data
@@ -249,7 +249,7 @@ public class Matrix {
 		return length;
 	}
 
-	/**
+	/*
 	 * 행렬의 합 Matrix A + Matrix B
 	 */
 	public Matrix sum(Matrix A, Matrix B) {
@@ -268,7 +268,7 @@ public class Matrix {
 		return new Matrix(sum);
 	}
 
-	/**
+	/*
 	 * 행렬의 차 Matrix A - Matrix B
 	 */
 	public Matrix diff(Matrix A, Matrix B) {
@@ -287,7 +287,7 @@ public class Matrix {
 		return new Matrix(diff);
 	}
 
-	/**
+	/*
 	 * 행렬의 곱 Matrix A * Matrix B
 	 */
 	public Matrix multiply(Matrix A, Matrix B) {
