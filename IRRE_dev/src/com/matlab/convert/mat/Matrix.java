@@ -14,6 +14,7 @@ public class Matrix {
 	private int rows = 0, cols = 0;
 
 	public Matrix() {
+		
 		/*
 		 * Default constructor
 		 */
